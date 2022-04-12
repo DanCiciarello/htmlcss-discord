@@ -49,6 +49,17 @@
 /* Typography */
 /*------------*/
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #23272A;
+}
+
+
 p {
     font-size: 16px;
     line-height: 26px;
@@ -60,8 +71,8 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 h3 {
@@ -126,7 +137,6 @@ h6 {
     box-shadow: 0px 0px 5px #23272A;
     background-color: #2a2f33;
 }
-
 
 
 /*----------------*/
@@ -195,7 +205,6 @@ header {
 
 .hero {
     min-height: 400px;
-    color: var(--btn-text-light);
 }
 
 .hero-title {
@@ -206,6 +215,11 @@ header {
 
 header .hero .hero-title h1 {
     padding-bottom: 25px;
+    color: var(--btn-text-light);
+}
+
+header .hero .hero-title p {
+    color: var(--btn-text-light);
 }
 
 .hero-buttons {
@@ -244,16 +258,27 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .image {
-    background-color: #007FF4;
     min-height: 500px;
     min-width: 300px;
     flex-grow: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .text {
-    background-color: #F9B9DF;
     min-height: 500px;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 250px;
+    padding-top: 2rem;
+}
+
+.info .image img {
+    min-width: 100px;
+    max-width: 550px;
+}
+
+.info .text h2 {
+    padding-bottom:20px;
 }
 
 
