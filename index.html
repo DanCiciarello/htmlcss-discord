@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord Homepage</title>
+    <title>Discord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navigation bar -->
-    <nav class="vertical-align">
-        <div class="container flex wrap red-border">
-            <div class="logo black-border"></div>
-            <div class="menu black-border"></div>
-            <div class="login black-border"></div>
+    <nav>
+        <div class="container flex wrap">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo Discord">
+            </div>
+            <div class="menu flex v-align h-align">
+                <ul class="flex">
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
+            <div class="login flex">
+                <a href="#" class="btn-small btn-light">Accedi</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero -->
     <header>
-        <div class="container flex hero vertical-align horizontal-align white-border">
-            <div class="hero-title red-border">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam consequatur totam perferendis nemo atque necessitatibus aut vel doloremque ut, veritatis odio labore minima incidunt rerum impedit quod veniam aperiam.
+        <div class="container flex hero v-align h-align">
+            <div class="hero-title">
+                <h1>Il tuo posto per parlare</h1>
+                <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-light"><i class="fa-solid fa-down-long" style="padding-right: 8px;"></i>Scarica per Mac</a>
+                    <a href="#" class="btn btn-dark">Apri Discord nel tuo browser</a>
+                </div>
             </div>
         </div>
     </header>
