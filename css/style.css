@@ -12,6 +12,7 @@
     --default-padding: 2rem 1rem;
     --btn-bg-light: #FFFFFF;
     --btn-bg-dark: #23272A;
+    --btn-bg-purple: #5865f2;
     --btn-text-light: #FFFFFF;
     --btn-text-dark: #23272A;
     --link-font-size: 13px;
@@ -26,6 +27,10 @@
 
 .flex {
     display: flex;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .row-reverse {
@@ -127,6 +132,11 @@ h6 {
     color: var(--btn-text-light);
 }
 
+.btn-purple {
+    background-color: var(--btn-bg-purple);
+    color: var(--btn-text-light);
+}
+
 .btn-light:hover {
     box-shadow: 0px 0px 5px #23272A;
     color: #5865f2;
@@ -136,6 +146,11 @@ h6 {
 .btn-dark:hover {
     box-shadow: 0px 0px 5px #23272A;
     background-color: #2a2f33;
+}
+
+.btn-purple:hover {
+    box-shadow: 0px 0px 5px #23272A;
+    background-color: #5865f2de;
 }
 
 
@@ -253,8 +268,7 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .cta {
-    height: 900px;
-    background-color: #5EA96F;
+    text-align: center;
 }
 
 .image {
@@ -276,11 +290,32 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .info .text h2 {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .second-block .info .image {
     justify-content: flex-end;
+}
+
+.cta-info {
+    padding: 0 100px;
+}
+
+.fourth-block .cta .cta-info h2 {
+    padding-bottom: 20px;
+}
+
+.cta-image {
+    justify-content: center;
+}
+
+.fourth-block .cta .cta-image img {
+    min-width: 300px;
+    max-width: 900px;
+}
+
+.fourth-block .cta .cta-start h3 {
+    padding: 40px 0 30px 0;
 }
 
 
