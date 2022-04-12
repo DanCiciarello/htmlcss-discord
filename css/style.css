@@ -66,8 +66,8 @@ p {
 }
 
 h1 {
-    font-size: 46px;
-    line-height: 54px;
+    font-size: 50px;
+    line-height: 58px;
 }
 
 h2 {
@@ -239,7 +239,7 @@ header .hero .hero-buttons a:first-of-type {
 .second-block,
 .third-block,
 .fourth-block {
-    padding: var(--default-padding);
+    padding: 6rem 1rem;
 }
 
 .second-block,
@@ -258,7 +258,6 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .image {
-    min-height: 500px;
     min-width: 300px;
     flex-grow: 1;
     justify-content: flex-start;
@@ -266,7 +265,6 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .text {
-    min-height: 500px;
     min-width: 200px;
     max-width: 250px;
     padding-top: 2rem;
@@ -279,6 +277,10 @@ header .hero .hero-buttons a:first-of-type {
 
 .info .text h2 {
     padding-bottom:20px;
+}
+
+.second-block .info .image {
+    justify-content: flex-end;
 }
 
 
