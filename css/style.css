@@ -394,13 +394,3 @@ footer {
     border-top: 1px solid var(--btn-bg-purple);
     justify-content: space-between;
 }
-
-
-/*-----------*/
-/* Temporary */
-/*-----------*/
-
-
-.white-border {
-    border: 1px dashed white;
-}
