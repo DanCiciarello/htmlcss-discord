@@ -92,7 +92,7 @@ h4 {
 
 h5 {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 h6 {
@@ -330,8 +330,7 @@ footer {
 
 .footer-info {
     min-width: 300px;
-    min-height: 350px;
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .footer-info h3 {
@@ -362,9 +361,29 @@ footer {
     flex-grow: 1;
 }
 
+.footer-menu .footer-col h5 {
+    color: var(--btn-bg-purple);
+}
+
+.footer-menu .footer-col ul {
+    list-style: none;
+    padding-inline-start: 0;
+    color: var(--btn-text-light);
+    font-size: var(--link-font-size);
+}
+
+.footer-menu .footer-col ul li {
+    padding-top: 5px;
+}
+
+.footer-menu .footer-col ul li a {
+    color: var(--btn-text-light);
+    text-decoration: none;
+}
+
 .footer-col {
     min-width: 160px;
-    min-height: 350px;
+    padding: 2rem 0 1rem 0;
     flex-grow: 1;
 }
 
