@@ -1,0 +1,116 @@
+/*----------------*/
+/* Navigation bar */
+/*----------------*/
+
+nav,
+header {
+    background-color: #23272A;
+    background-image: none;
+}
+
+
+/*------*/
+/* Hero */
+/*------*/
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.hero-col {
+    max-width: 50%;
+    min-width: 400px;
+    flex-grow: 1;
+}
+
+.hero-info {
+    align-items: center;
+}
+
+.hero-info h1 {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.hero-info p {
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.hero-info i {
+    padding-right: 10px;
+}
+
+.hero-info span {
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: .9rem;
+}
+
+.hero-image {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-image div img {
+    max-width: 450px;
+}
+
+
+/*------*/
+/* Main */
+/*------*/
+
+main {
+    padding: 5rem;
+}
+
+.main-col {
+    max-width: 50%;
+    min-width: 400px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.main-col:last-child {
+    padding-top: 150px;
+}
+
+.card {
+    height: 500px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 50px 50px 0 50px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    padding-bottom: 20px;
+}
+
+.card-cta {
+    height: unset;
+    border-radius: 0px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.card-cta p {
+    padding-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.card i {
+    padding-left: 7px;
+}
