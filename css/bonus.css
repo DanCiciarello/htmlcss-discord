@@ -1,0 +1,31 @@
+/*---------*/
+/* Buttons */
+/*---------*/
+
+.btn-light:hover {
+    box-shadow: 0px 0px 5px #23272A;
+    color: #5865f2;
+    background-color: #fbfbfb;
+}
+
+.btn-dark:hover {
+    box-shadow: 0px 0px 5px #23272A;
+    background-color: #2a2f33;
+}
+
+.btn-purple:hover {
+    box-shadow: 0px 0px 5px #23272A;
+    background-color: #5865f2de;
+}
+
+/*------*/
+/* Wave */
+/*------*/
+
+.wave-1hkxOo {
+    display: block;
+}
+
+.svg-rotate {
+    transform: rotate(180deg);
+}
