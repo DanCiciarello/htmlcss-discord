@@ -29,3 +29,18 @@
 .svg-rotate {
     transform: rotate(180deg);
 }
+
+
+/*-----*/
+/* CTA */
+/*-----*/
+
+.cta-start {
+    justify-content: center;
+}
+
+.cta-start div {
+    min-width: 600px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+}
