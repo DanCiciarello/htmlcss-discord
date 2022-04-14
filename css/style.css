@@ -282,7 +282,11 @@ header .hero .hero-buttons a:first-of-type {
 }
 
 .cta-info {
-    padding: 0 100px;
+    justify-content: center;
+}
+
+.cta-info div {
+    max-width: 760px;
 }
 
 .fourth-block .cta .cta-info h2 {
