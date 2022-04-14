@@ -40,7 +40,8 @@
 }
 
 .cta-start div {
-    min-width: 600px;
+    min-width: 400px;
     background-image: url('../img/stars.svg');
+    background-size: contain;
     background-repeat: no-repeat;
 }
